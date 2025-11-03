@@ -1,0 +1,24 @@
+.calculatrice {
+    max-width: 300px;  margin: 50px auto;  padding: 20px;
+    border: 1px solid #ccc;  border-radius: 10px;  background-color: #f9f9f9;
+.ecran {
+    background: #000; color: #fff;  padding: 20px;
+    text-align: right;  font-size: 24px;
+    margin-bottom: 10px;  border-radius: 5px;
+}
+.boutons {
+    display: grid; grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button {
+    padding: 15px;
+    font-size: 18px;  border: none;
+    border-radius: 5px;  cursor: pointer;
+}
+.reset {
+    background-color: #ff4757; color: white;
+}
+.equals {
+    background-color: #2ed573; color: white;
+}
+}
